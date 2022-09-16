@@ -1,0 +1,230 @@
+.hero {
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), black),
+    url(./home-hero-bg.jpg);
+  background-repeat: no-repeat;
+}
+
+.navig {
+  list-style-type: none;
+  display: inline;
+  color: white;
+}
+.navbar {
+  margin-top: 25px;
+  align-items: center;
+}
+
+#drp {
+  color: black;
+}
+li {
+  float: left;
+  margin-left: 20px;
+}
+.lg {
+  margin-left: 70px;
+}
+li a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+li a:hover {
+  color: white;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+.secone {
+  display: flex;
+
+  justify-content: baseline;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+#blk {
+  background-color: #8AAEC3;
+  height: 50px;
+  width: 250px;
+  text-align: center;
+  padding-top: 10px;
+}
+.gift {
+  text-align: center;
+  height: 50px;
+  width: 220px;
+  border: 2px solid white;
+  padding-top: 10px;
+}
+.midcontent {
+  font-size: 40px;
+  font-family: "Dancing Script";
+  font-size: 22px;
+  text-align: center;
+  color: white;
+  margin-top: 50px;
+  letter-spacing: 1.5px;
+}
+.text {
+  color: white;
+  text-align: center;
+  font-size: large;
+  letter-spacing: 2px;
+  margin-top: 15px;
+}
+.boxes {
+  display: flex;
+  justify-content: space-evenly;
+}
+.box {
+  height: 370px;
+  width: 400px;
+  margin-left: 30px;
+
+  justify-content: space-between;
+  padding-top: 40px;
+  padding: 1.6rem 1.6rem 2.4rem 1.6rem;
+  height: 370px;
+
+  box-shadow: 0 8px 10px rgb(0 0 0/50%), 0 10px 18px rgb(0 0 0/30%);
+  width: 400px;
+  color: rgba(240, 255, 255, 0.459);
+}
+.rwp {
+  color: white;
+  padding-left: 25px;
+  font-size: 21px;
+}
+.num {
+  margin-left: 25px;
+  color: #8AAEC3;
+}
+.address {
+  margin-top: 15px;
+  margin-left: 20px;
+  color: rgba(255, 255, 255, 0.692);
+  font-size: 20px;
+}
+.map {
+  text-decoration: none;
+  padding-left: 20px;
+  color: #8AAEC3;
+}
+.btn {
+  width: 100%;
+  background-color: #8AAEC3;
+}
+.scnd {
+  width: 100%;
+  background-color: black;
+}
+.the{
+  font-family: 'Dancing Script';font-size: 30px;
+  color: #8AAEC3;
+  padding-left: 60px;
+}
+.exp{
+  font-family: 'Josefin Sans',sans-serif;font-size: 40px;color: #8AAEC3;
+
+  padding-left: 75px;
+  margin-top: -10px;
+}
+.para{
+  color: #151515;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 300;
+  text-align: left;
+  padding-left: 75px;
+}
+.alone{
+  display: flex;
+  margin-top: 40px;
+  width: 
+  100%;
+}
+.altwo{  display: flex;
+  margin-top: 40px;
+flex-direction: row-reverse;width: 
+100%;}
+.The{
+  font-family: 'Dancing Script';font-size: 30px;
+  color: #8AAEC3;
+  padding-left: 40px;
+}
+.Para{ color: #616161;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 300;
+  text-align: left;
+  padding-right: 75px;
+font-family: 'Josefin Sans',sans-serif;
+}
+.Exp{
+  font-family: 'Josefin Sans',sans-serif;font-size: 40px;color: #8AAEC3;
+  padding-left: 75px;
+  margin-top: -10px;
+}
+.hd{
+  font-family: 'Dancing Script',sans-serif;font-size: 30px;
+  color: #8AAEC3; text-align: center; margin-top: 40px;
+}
+.serv{ font-family:'Josefin Sans',sans-serif;font-size: 40px;
+  color: #8AAEC3; text-align: center;} 
+  .sectwo{    margin-bottom: 20px;
+    margin-top: 20px;
+    color: #616161;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 300;
+    text-align: center;}
+    .col{ color: #616161;
+      font-size: 20px;
+      line-height: 50px;
+      font-weight: 300;
+      text-align: center;}
+      .coll{color: #616161;
+        font-size: 20px;
+        line-height: 50px;
+        font-weight: 300;
+        text-align: center;}
+        .servi{display: flex;
+    margin-right: 222px;}
+    .rev{
+margin-bottom: 50px;
+      text-align: center;
+    }
+    .cust{
+     
+    
+      text-align: center;
+    }
+.parent{width: 100%;
+display: flex;}
+.pix{width: 20%;
+margin: 0;}
+.lour{  font-family: 'Dancing Script',sans-serif;font-size: 30px;
+  color:white; text-align: center;}
+  .lserv{font-family:'Josefin Sans',sans-serif;font-size: 40px;
+    color: white; text-align: center;}
+    .last{background-color: #616161;height: auto;}
+    .finish{
+      padding-left: 25px;
+      margin-top: 35px;
+      margin-left: 45px;
+    }
